@@ -2,9 +2,9 @@ CREATE DATABASE IF NOT EXISTS alx_book_store;
 USE alx_book_store;
 
 -- Create authors table
-CREATE TABLE IF NOT EXISTS authors (
+CREATE TABLE IF NOT EXISTS Authors (
     author_id INT AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(100) NOT NULL,
+    author_name VARCHAR(100) NOT NULL,
     bio TEXT,
     birth_date DATE
 );
