@@ -1,7 +1,7 @@
 -- git remote add origin https://github.com/lexpeachy/Intro_to_DB.git
 -- git branch -M main
 -- git push -u origin main
-CREATE DATABASE alx_book_store;
+CREATE DATABASE IF NOT EXISTS alx_book_store;
 USE alx_book_store;
 CREATE TABLE Author (
     author_id INT AUTO INCREMENT PRIMARY KEY,
